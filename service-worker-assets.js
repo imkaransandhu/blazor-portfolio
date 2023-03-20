@@ -169,7 +169,7 @@
       "url": "cross.png"
     },
     {
-      "hash": "sha256-wT7jmHMPTXlx8ABhcRvUdfha+mNk2MA8H2GrkOMWHXU=",
+      "hash": "sha256-DhTuK2xTe9PSY9VcTe8\/gmDn+Qd55yvaSkEYfrlad6o=",
       "url": "css\/app.css"
     },
     {
@@ -269,5 +269,5 @@
       "url": "project.png"
     }
   ],
-  "version": "\/Vueah7C"
+  "version": "FI7YrNqw"
 };
