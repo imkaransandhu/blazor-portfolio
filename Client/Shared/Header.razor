@@ -1,0 +1,25 @@
+﻿<div class="header d-flex justify-content-between align-content-center h-5" >
+    <NavLinks />
+    <Logo />
+    <NavSocial />   
+    <NavMobiles MyClass="@MobileNavClass" />
+
+
+    <div class="ham-burger d-flex justify-content-between align-content-center d-md-none px-2 py-3 position-relative z-2">
+        <button @onclick="ToggleNavMenu" class="  px-3 text-center bg-white border-0 ">
+            <img src="@( showMobileNav ?  "./cross.png" : "./hamburger.png" )" alt="button" height="20" width="20" />
+        </button>
+    </div>
+</div>
+
+@code {
+    private bool showMobileNav = false;
+
+    private string? MobileNavClass => showMobileNav ? "d-flex" : "d-none";
+
+    private void ToggleNavMenu()
+    {
+        showMobileNav = !showMobileNav;
+        Console.WriteLine("sdfs");
+    }
+}

@@ -1,0 +1,34 @@
+﻿<ul class="nav-mobile @MyClass  flex-column gap-3 position-absolute start-0 bg-info w-100 h-100 d-flex  align-items-center align-self-center text-center py-2 ">
+    <li class=" d-flex align-items-center">
+  
+        <a class="text-black fw-bold text-decoration-none " href="/projects">
+            <img class="me-3"  src="./project.png" alt="project" height="25" width="25" />
+            Project </a>
+    </li>   
+    <li class=" d-flex align-items-center">
+        
+        <a class="text-black fw-bold text-decoration-none " href="/resume">
+            <img class="me-3" src="./cv.png" alt="resume" height="25" width="25" />
+            Resume </a>
+    </li>
+    <li class=" d-flex align-items-center ">
+        
+        <a class="text-black  fw-bold text-decoration-none " href="https://github.com/imkaransandhu">
+            <img class="me-3" src="./github.svg" alt="github" height="25" width="25" />
+            Github </a>
+    </li>
+    <li class=" d-flex align-items-center ">
+        
+        <a class="text-black fw-bold text-decoration-none  " href="https://www.linkedin.com/in/imkaransingh/">
+            <img class="me-3"  src="./linkedin.svg" alt="linkedin" height="25" width="25" />
+            LinkedIn </a>
+    </li>
+</ul>
+
+@code {
+    [Parameter]
+    public string MyClass { get; set; } = string.Empty;
+
+
+
+}

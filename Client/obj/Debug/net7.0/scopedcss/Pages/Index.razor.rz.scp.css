@@ -1,0 +1,51 @@
+.personal-section .inner[b-7hithh1ngy] {
+    height : 40rem;
+    width : 100%;
+    border-radius : 15rem
+}
+
+.personal-section .outer[b-7hithh1ngy] {
+    border-radius: 16rem;
+    width: 32rem;
+}
+
+.personal-section .outer .inner img[b-7hithh1ngy] {
+    border-radius: 15rem;
+    
+}
+
+
+.cool-animation[b-7hithh1ngy] {
+    animation-name: spin-b-7hithh1ngy;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin-b-7hithh1ngy {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    /* CSS styles for screens below 768px */
+    .personal-section .inner[b-7hithh1ngy] {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .personal-section .outer[b-7hithh1ngy] {
+        width: 70%
+    }
+
+
+    
+}

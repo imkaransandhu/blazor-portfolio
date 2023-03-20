@@ -1,0 +1,51 @@
+﻿.personal-section .inner {
+    height : 40rem;
+    width : 100%;
+    border-radius : 15rem
+}
+
+.personal-section .outer {
+    border-radius: 16rem;
+    width: 32rem;
+}
+
+.personal-section .outer .inner img {
+    border-radius: 15rem;
+    
+}
+
+
+.cool-animation {
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    /* CSS styles for screens below 768px */
+    .personal-section .inner {
+        height: 20rem;
+        width: 100%;
+    }
+
+    .personal-section .outer {
+        width: 70%
+    }
+
+
+    
+}
